@@ -1,0 +1,105 @@
+Visited array: 
+1 1 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+Clusters called: i, j -> 0 1
+Visited array: 
+1 1 1 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+Clusters called: i, j -> 0 2
+Visited array: 
+1 1 1 1 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+Clusters called: i, j -> 0 3
+Visited array: 
+1 1 1 1 1 1 
+1 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+Clusters called: i, j -> 1 0
+Visited array: 
+1 1 1 1 1 1 
+1 1 1 1 1 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+Clusters called: i, j -> 1 4
+Visited array: 
+1 1 1 1 1 1 
+1 1 1 1 1 1 
+1 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+Clusters called: i, j -> 2 0
+Visited array: 
+1 1 1 1 1 1 
+1 1 1 1 1 1 
+1 1 1 1 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+Clusters called: i, j -> 2 3
+Visited array: 
+1 1 1 1 1 1 
+1 1 1 1 1 1 
+1 1 1 1 1 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+Clusters called: i, j -> 2 4
+Visited array: 
+1 1 1 1 1 1 
+1 1 1 1 1 1 
+1 1 1 1 1 1 
+1 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+Clusters called: i, j -> 3 0
+Visited array: 
+1 1 1 1 1 1 
+1 1 1 1 1 1 
+1 1 1 1 1 1 
+1 1 1 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+Clusters called: i, j -> 3 2
+Visited array: 
+1 1 1 1 1 1 
+1 1 1 1 1 1 
+1 1 1 1 1 1 
+1 1 1 1 1 1 
+1 1 0 0 0 0 
+0 0 0 0 0 0 
+Clusters called: i, j -> 4 1
+Visited array: 
+1 1 1 1 1 1 
+1 1 1 1 1 1 
+1 1 1 1 1 1 
+1 1 1 1 1 1 
+1 1 1 1 1 1 
+0 0 0 0 0 0 
+Clusters called: i, j -> 4 5
+Visited array: 
+1 1 1 1 1 1 
+1 1 1 1 1 1 
+1 1 1 1 1 1 
+1 1 1 1 1 1 
+1 1 1 1 1 1 
+1 1 1 1 1 0 
+Clusters called: i, j -> 5 4
+count: 13
