@@ -1,0 +1,1 @@
+1. find permutation of string(all possible arrangements of string

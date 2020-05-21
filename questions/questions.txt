@@ -1,2 +1,4 @@
 1. Find clusters of 1's in 2d-array
 2. Find the number of ways to reach from a to b in a given graph and print them.
+3. given a word A and number of sentences, arrange sentences in increasing order of occurence of word A.
+4. Given coins (abcbbbcdeaf), find the minimum number of subsring contains the set of all coins(abcdef).
