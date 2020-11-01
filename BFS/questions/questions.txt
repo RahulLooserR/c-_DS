@@ -1,0 +1,23 @@
+1. Breadth First Search (BFS) | Iterative & Recursive Implementation
+2. Find minimum passes required to convert all negative values in the matrix
+3. Find shortest distance of every cell from landmine in a Maze
+4. Count the number of islands
+5. Flood Fill Algorithm
+6. Find shortest safe route in a field with sensors present
+7.  Shortest path in a Maze | Lee algorithm
+8. Chess Knight Problem | Find Shortest path from source to destination
+9. Minimum number of throws required to win Snake and Ladder game
+10. Find shortest path from source to destination in a matrix that satisfies given constraints
+11. Traverse given directory using BFS and DFS in Java
+12. Find the path between given vertices in a directed graph
+13. Least cost path in given digraph from given source to destination having exactly m edges
+14. Find maximum cost path in graph from given source to destination
+15. Least Cost Path in Weighted Digraph using BFS
+16. Check if given Graph is Strongly Connected or not
+17. Total number of paths in given digraph from given source to destination having exactly m edges
+18. Check if an undirected graph contains cycle or not
+19. Transitive Closure of a Graph
+20. Construct a directed graph from undirected graph that satisfies given constraints
+21. Bipartite Graph
+22. Level Order Traversal of Binary Tree
+23. Check if given binary tree is complete binary tree or not
