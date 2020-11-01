@@ -1,0 +1,8 @@
+1. Knapsack problem (solve using recursion)
+	capacity of bag is W,
+	weight_of_item[] {1,2,4,5,9}
+	value_of_item[]  {20,4,5,6,7}
+	find maximum profit
+
+2. solve above using memoisation and recursion
+3. solve using memoisation and top down approach (no recursion, iterative solution)
