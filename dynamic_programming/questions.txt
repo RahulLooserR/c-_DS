@@ -6,3 +6,7 @@
 
 2. solve above using memoisation and recursion
 3. solve using memoisation and top down approach (no recursion, iterative solution)
+4. subset sum problem: find if subset exists in array whose sum is equal to x.
+5. equal sum partition: can array be divided into two partitions whose sums are equal
+6. count subset whose sum is equal to x.
+7. minimum subset difference 
