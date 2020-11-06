@@ -34,4 +34,6 @@ not under dynamic programming (taking a part of element is allowed
 	coins[] {3, 1, 5, 2}
 	sum: 5
 	find the maximum number of ways so that we get sum of 5
+
+13. minimum number  of coins whose sum is equal to x
 ###########################################################
