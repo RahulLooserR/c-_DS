@@ -1,3 +1,8 @@
+########## fractional knapsack comes under greedy approach 
+not under dynamic programming (taking a part of element is allowed
+##############################################################
+
+########## 0-1 knapsack ################################
 1. Knapsack problem (solve using recursion)
 	capacity of bag is W,
 	weight_of_item[] {1,2,4,5,9}
@@ -10,3 +15,23 @@
 5. equal sum partition: can array be divided into two partitions whose sums are equal
 6. count subset whose sum is equal to x.
 7. minimum subset difference 
+8. count the number of subset with given difference.
+9. target sum problem: assign each element wiht +/- so that sum of the array is eqaul to given sum
+#########################################################
+
+############## unbounded knapsack #########################
+10. unbounded knapsack problem (can include item multiple times)
+11. Rod cutting problem:
+	given a rod of length N, divide it such it we get maximum profit
+	L: 10
+	len[] {1, 2, 4, 5, 7, 8}
+	val[] {2, 3, 4, 5, 7, 9}
+
+	if len[] is not given the create your own len[1->L]
+12. maximum number of ways :
+	coin change problem:
+	given an unlimited supply of coins of below type
+	coins[] {3, 1, 5, 2}
+	sum: 5
+	find the maximum number of ways so that we get sum of 5
+###########################################################

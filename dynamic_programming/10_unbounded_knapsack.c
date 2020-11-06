@@ -2,7 +2,7 @@
  * Created by    : Rahul Kumar Nonia
  * File name     : 01_knapsack.c
  * Created on    : Sunday 01 November 2020 09:14:38 PM IST
- * Last modified : Thursday 05 November 2020 08:31:32 AM IST
+ * Last modified : Thursday 05 November 2020 07:14:27 PM IST
  * Description   : solving knapsack problem with recursion using 
  * 				   memoisation, this includes storing all the possible
  * 				   solution in the matrix 
@@ -43,7 +43,7 @@ int knapsack(int capacity, int *weight, int *value, int n)
 	 * store the value and return
 	 */
 	if(weight[n-1] <= capacity){
-		return solution[n][capacity] = max(value[n-1] + knapsack(capacity - weight[n-1], weight, value, n - 1), knapsack(capacity, weight, value, n - 1));
+		return solution[n][capacity] = max(value[n-1] + knapsack(capacity - weight[n-1], weight, value, n), knapsack(capacity, weight, value, n - 1));
 	}
 
 	/* weight is greater than capacity then don't
@@ -81,7 +81,7 @@ int knapsack_itr(int W, int *wt, int *value, int n)
 	for(i = 1; i < n+1; i++){
 		for(j = 1; j < W+1; j++){
 			if(wt[i-1] < j){
-				t[i][j] = max(value[i-1] + t[i-1][j-wt[i-1]], t[i-1][j]);
+				t[i][j] = max(value[i-1] + t[i][j-wt[i-1]], t[i-1][j]);
 			}
 			else{
 				t[i][j] = t[i-1][j];
@@ -97,7 +97,7 @@ int knapsack_itr(int W, int *wt, int *value, int n)
 int main()
 {
 	int weight[] = {10, 20, 30};
-	int value[]  = {600, 50, 12};
+	int value[]  = {600, 50, 8};
 	int n = sizeof(weight) / sizeof(weight[0]);
 	int capacity = 50;
 	
