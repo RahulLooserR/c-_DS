@@ -37,3 +37,11 @@ not under dynamic programming (taking a part of element is allowed
 
 13. minimum number  of coins whose sum is equal to x
 ###########################################################
+
+
+############## longest common subsequence (LCS) ##################
+14. Recursive approach
+15. Memoize
+16. top-down
+
+###################################################################
