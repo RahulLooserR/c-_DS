@@ -43,5 +43,11 @@ not under dynamic programming (taking a part of element is allowed
 14. Recursive approach
 15. Memoize
 16. top-down
-
+17. find longest substring
+18. print lcs
+19. length of shortest supersequence
+	s1: geek
+	s2: ela
+	worst: geekela
+	best: geekla   -> answer 6
 ###################################################################
