@@ -2,7 +2,7 @@
  * Created by    : Rahul Kumar Nonia
  * File name     : 16_lcs_top_down.cpp
  * Created on    : Saturday 07 November 2020 02:55:56 PM IST
- * Last modified : Sunday 08 November 2020 06:52:18 PM IST
+ * Last modified : Saturday 07 November 2020 08:04:38 PM IST
  * Description   : 
  * ***********************************************************************/
 
@@ -15,7 +15,7 @@ int max(int a, int b)
 	return (a > b ? a : b);
 }
 
-int lcs(string s1, string s2)
+void min_ins_del_lcs(string s1, string s2)
 {
 	int l1 = s1.length();
 	int l2 = s2.length();
@@ -40,7 +40,8 @@ int lcs(string s1, string s2)
 		}
 	}
 	
-	return t[l1][l2];
+	cout << "Deletion: " << l1 - t[l1][l2] << endl;
+	cout << "Insertion: " << l2 - t[l1][l2] << endl;
 }
 
 int main()
@@ -52,7 +53,7 @@ int main()
 	cout << "Enter second string: ";
 	cin >> s2;
 
-	cout << "Longest common subsequence: " << lcs(s1, s2) << endl;
+	min_ins_del_lcs(s1, s2);
 
 	return 0;
 }

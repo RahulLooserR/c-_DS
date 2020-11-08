@@ -50,4 +50,20 @@ not under dynamic programming (taking a part of element is allowed
 	s2: ela
 	worst: geekela
 	best: geekla   -> answer 6
+20. minimum number of insertion and deletion for s1->s2
+	deletion = s1-lcs
+	insertion = s2-lcs
+
+21. longest palindromic subsequence
+	find the longest substring which is palindrome
+22. minimum number of deletion required to get longest palindromic
+	sequence
+23. printing shortest common supersequence (related with 19)
+24. longest repeating subsequence
+	eg: abacbdf -> ab
+25. sequence pattern matching 
+	if sting a is subsequence of string  b
+	eg: A-> abc
+		B-> xbaobdc o/p -> true
+26. Minimum number of insertion to make string palindrome (== 22).
 ###################################################################
