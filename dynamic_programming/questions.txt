@@ -67,3 +67,22 @@ not under dynamic programming (taking a part of element is allowed
 		B-> xbaobdc o/p -> true
 26. Minimum number of insertion to make string palindrome (== 22).
 ###################################################################
+
+################### Matric chain multiplication ###################
+27. given a series of matices, find the minimum cost to multiply
+	all matrices
+	arr[] = {10, 20, 40, 30}
+	a1  = 10 * 20, a2 = 20 * 40, a3 = 40 * 30
+	possible solution = (a1.a2)a3, a1(a2.a3)
+		= min(10*20*40 + 10*40*30, 20*40*30 + 10*20*30)
+		= min(20000, 30000) = 20000
+28. mcm using memoization.
+29. minimum partition required so that each substring is palindrome
+	eg: kayak (palindrome)
+		k a y a k (worst case, partition = len -1)
+		ka y ak -> X(not all string are palindrome)
+		a aya k -> 2 partition required
+
+30. memoize + optimize 29
+
+####################################################################
