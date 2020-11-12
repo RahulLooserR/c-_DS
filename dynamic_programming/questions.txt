@@ -85,4 +85,27 @@ not under dynamic programming (taking a part of element is allowed
 
 30. memoize + optimize 29
 
+31. Evaluate expression to true
+	find the number of ways so that the expression is always true
+	eg: str = T^F&T
+			  (T^F) & T = T 
+			  T ^ (F&T) = T 
+			  number of ways for expresssion to be true = 2
+
+32. solve 31 with memoisation
+
+33. scrambled string. find if string a is scrambled string of b
+	subtree can be swapped or not swapped
+	either string a or b cannot be blank
+34. solve 33 with memoization
+
+35. Egg droppping problem
+	given e eggs and f floors building. find minimum number of 
+	attempts to find the critical floor(above which egg will break)
+36. solve 35 with memoization
+####################################################################
+
+################ Dynamic programming on tree #######################
+
+
 ####################################################################

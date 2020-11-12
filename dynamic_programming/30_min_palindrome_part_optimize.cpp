@@ -40,7 +40,7 @@ int minPartition(string s, int i, int j)
     if(t[i][j] != -1){
         return t[i][j];
     }
-    int min = INT32_MAX - 1;
+    int min =  - 1;
 
     for(int k = i; k < j; k++){
         //int temp = minPartition(s, i, k) + minPartition(s, k+1, j) + 1;
